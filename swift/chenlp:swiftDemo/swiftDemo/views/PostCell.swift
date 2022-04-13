@@ -62,7 +62,7 @@ struct PostCell: View {
                     
                 }
                 Spacer()
-                PostCellToolbarButton(image: post.isVppDeviceBasedLicensingEnabled ? "heart.fill" : "heart",
+                PostCellToolbarButton(image: post.isVppDeviceBasedLicensingEnabled ? "heart" : "heart.fill",
                                       color: post.isVppDeviceBasedLicensingEnabled ?  .gray: .red)
                 {
                     if post.isVppDeviceBasedLicensingEnabled {
